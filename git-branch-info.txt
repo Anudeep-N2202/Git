@@ -1,0 +1,23 @@
+AWS Lab Setup 
+1. AWS Signup
+2. Login to AWS Console
+3. Launch instance (download .pem)
+4. convert .pem -> .ppk
+5. Login to VM using putty and .ppk key
+
+
+
+I.   Git basic operation(initialize,clone,changes,commit,push,pull,fetch)
+Ia.  Git reset,revert,restore
+II.  Git Branch and Merging(create/checkout/push/delete)
+III. Git Stash, Cherry-pick, Diff
+
+git stash pop stashID = git stash apply stashID && git stash drop stashID
+
+git checkout -b demo02 = git branch demo02 && git checkout demo02
+
+
+Merge techniques:
+1. true-merge OR real-merge OR no-ff-merge OR 3-way-merge OR default-merge OR explicit-merge (fix conflict, stage change, git merge --continue)
+2. rebase or 2-way-merge OR implicit-merge (fix conflict, stage change, git rebase --continue)
+3. fast-forward-merge
